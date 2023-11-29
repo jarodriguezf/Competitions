@@ -1,0 +1,52 @@
+
+
+Objetivo: Predecir dureza de Mohs, en funcion de las siguientes caracteristicas.
+Evaluacion: MedAE (median absolute error)
+
+-allelectrons_Total: La suma total de electrones en el sistema. 
+En términos de dureza, la distribución de electrones en los átomos 
+puede influir en las propiedades físicas y químicas de un material.
+
+-density_Total: La densidad total del material. 
+La densidad está relacionada con la compacidad de la estructura del material
+y puede influir en su resistencia y dureza.
+
+-allelectrons_Average: El promedio de electrones por átomo. 
+Puede proporcionar información sobre la carga eléctrica promedio 
+en el sistema.
+
+-val_e_Average: El promedio de electrones de valencia por átomo. 
+Los electrones de valencia están involucrados en la formación de enlaces 
+químicos y pueden influir en la estructura y propiedades de los materiales.
+
+-atomicweight_Average: El peso atómico promedio de los elementos presentes 
+en el material. El peso atómico está relacionado con la masa de los átomos 
+y puede influir en las propiedades mecánicas.
+
+-ionenergy_Average: La energía de ionización promedio. 
+Puede estar relacionada con la facilidad con la que los átomos pueden 
+perder electrones, lo que podría influir en la dureza.
+
+-el_neg_chi_Average: La electronegatividad promedio. 
+La electronegatividad está relacionada con la atracción que un átomo 
+ejerce sobre los electrones. 
+Podría influir en las propiedades de enlace y, por ende, en la dureza.
+
+-R_vdw_element_Average: El radio de Van der Waals promedio del elemento. 
+Los radios de Van der Waals están relacionados con las interacciones 
+entre átomos y podrían influir en la estructura y dureza.
+
+-R_cov_element_Average: El radio covalente promedio del elemento. 
+Los radios covalentes están relacionados con la longitud de los enlaces 
+covalentes y podrían afectar la estructura y dureza.
+
+-zaratio_Average: La relación Z/A promedio. 
+La relación de protones (Z) a la masa nuclear (A) puede proporcionar 
+información sobre la estabilidad nuclear.
+
+-density_Average: La densidad promedio del material. 
+Al igual que la densidad total, puede estar relacionada con la resistencia 
+y dureza del material.
+
+-Hardness: La dureza en la escala de Mohs. 
+Esta es la variable objetivo que estás tratando de predecir.
