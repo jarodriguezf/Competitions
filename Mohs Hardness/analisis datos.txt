@@ -1,0 +1,58 @@
+1. Tamaño, tipos de datos y estructura del dataset.
+- Dataset (1407,13), filas y columnas.
+- Variables independientes (float, int).
+- Variable dependiente (float).
+- Sin nulos, siendo 'id' (var. independiente) unica.
+
+2. Descriptivos estadisticos.
+- allelectrons_Total: media de 128 con dst(desviacion estandar) 224,
+  con cuartiles desde 68-131.*
+- density_Total: media de 14 con dst 15, con cuartiles desde 7-16.*
+- allelectrons_Average: media de 17 con dst 10, con cuartiles desde 10-22.
+- val_e_Average: media de 4 con dst 0.6, con cuartiles desde 4-4.8.
+- atomicweight_Average: media de 37 con dst 26, con cuartiles desde 20-48.*
+- ionenergy_Average: media de 10 con dst 1, con cuartiles desde 10-11.
+- el_neg_chi_Average: media de 2 con dst 0, con cuartiles desde 2.5-2.8.
+- R_vdw_element_Average: media de 1 con dst 0, con cuartiles desde 1.6-1.8.
+- R_cov_element_Average: media de 0.9 con dst 0.1, con cuartiles desde 0.8-0.9.
+- zaratio_Average: media de 0.5 con dst 0.06, con cuartiles desde 0.47-0.49.
+- density_Average: media de 2 con dst 1.9, con cuartiles desde 0.8-2.*
+
+Nota: * estas caracteristicas presentan valores maximos elevados.
+
+3. Distribuciones y atipicos (casos).
+- allelectrons_Total: eliminar atipicos y estratificacion (mayor cantidad).
+- density_Total: eliminar atipicos y estratificacion (mayor cantidad).
+- allelectrons_Average: eliminar atipicos, sesgo derecha (menor cantidad).
+- val_e_Average: casos infimos y estratificacion (no eliminar).
+- atomicweight_Average: eliminar atipicos, sesgo derecha (mayor cantidad).
+- ionenergy_Average: eliminar atipicos (mayor cantidad).
+- el_neg_chi_Average: eliminar atipicos (mayor cantidad).
+- R_vdw_element_Average: eliminar atipicos (mayor cantidad).
+- R_cov_element_Average: eliminar atipicos (mayor cantidad).
+- zaratio_Average: eliminar atipicos (mayor cantidad).
+- density_Average: eliminar atipicos, sesgo derecha (mayor cantidad).
+
+Nota: las variables que presentan mayor cantidad de atipicos, se eliminara
+los valores con mayor distancia con respecto a la distribucion.
+
+4. Correlaciones fuertes entre predictores (multicolinealidad).
+- allelectrons_Average > density_Average = 0.8
+- allelectrons_Average > atomicweight_Average = 0.9
+- atomicweight_Average > density_Average = 0.8
+- R_vdw_element_Average > R_cov_element_Average = 0.8
+
+Nota: Para solucionar la multicolinealidad aplicaremos PCA.
+
+5. ANOVA (analisis de varianza)
+
+
+
+
+
+
+
+
+
+
+
