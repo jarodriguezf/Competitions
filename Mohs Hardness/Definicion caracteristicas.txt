@@ -3,6 +3,9 @@
 Objetivo: Predecir dureza de Mohs, en funcion de las siguientes caracteristicas.
 Evaluacion: MedAE (median absolute error)
 
+
+-CARACTERISTICAS-
+
 -allelectrons_Total: La suma total de electrones en el sistema. 
 En términos de dureza, la distribución de electrones en los átomos 
 puede influir en las propiedades físicas y químicas de un material.

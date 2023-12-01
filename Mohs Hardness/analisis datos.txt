@@ -20,7 +20,7 @@
 
 Nota: * estas caracteristicas presentan valores maximos elevados.
 
-3. Distribuciones y atipicos (casos).
+3. Distribuciones y atipicos (cambiara a lo largo del analisis).
 - allelectrons_Total: eliminar atipicos y estratificacion (mayor cantidad).
 - density_Total: eliminar atipicos y estratificacion (mayor cantidad).
 - allelectrons_Average: eliminar atipicos, sesgo derecha (menor cantidad).
@@ -41,12 +41,30 @@ los valores con mayor distancia con respecto a la distribucion.
 - allelectrons_Average > atomicweight_Average = 0.9
 - atomicweight_Average > density_Average = 0.8
 - R_vdw_element_Average > R_cov_element_Average = 0.8
+- allelectrons_Average < zaratio_Average = -0.78
+- atomicweight_Average < zaratio_Average =-0.79
 
-Nota: Para solucionar la multicolinealidad aplicaremos PCA.
+- aplicaremos PCA a las caracteristicas: 
+	- allelectrons_Average
+	- density_Average
+	- R_vdw_element_Average
+	- atomicweight_Average
+	- zaratio_Average
+	- R_cov_element_Average
+
+Nota: Para solucionar la multicolinealidad aplicaremos PCA y eliminaremos
+estas caracteristicas del dataset.
 
 5. ANOVA (analisis de varianza)
 
+- Todas las caracteristicas presentan una relacion fuerte con respecto a 
+su variable dependiente.
 
+6. Nuevas caracteristicas (PCA)
+
+- allelectrons_Total, density_Total, val_e_Average, ionenergy_Average, 
+el_neg_chi_Average, PCA_Component_1, PCA_Component_2, PCA_Component_3, 
+PCA_Component_4, Hardness.
 
 
 
