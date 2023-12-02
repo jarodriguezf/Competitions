@@ -60,11 +60,11 @@ estas caracteristicas del dataset.
 - Todas las caracteristicas presentan una relacion fuerte con respecto a 
 su variable dependiente.
 
-6. Nuevas caracteristicas (PCA)
+6. Nuevas caracteristicas (PCA, Kmeans, transformaciones matematicas)
 
 - allelectrons_Total, density_Total, val_e_Average, ionenergy_Average, 
 el_neg_chi_Average, PCA_Component_1, PCA_Component_2, PCA_Component_3, 
-PCA_Component_4, Hardness.
+PCA_Component_4, cluster, electronic_density, v_mean_elecIo, Hardness.
 
 
 
