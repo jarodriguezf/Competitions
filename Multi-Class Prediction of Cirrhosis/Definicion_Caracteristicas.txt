@@ -1,0 +1,45 @@
+El objetivo de esta competicion trata de predecir la probabilidad de cada estado cirrótico de pacientes segun ciertas caracteristicas.
+
+-CARACTERÍSTICAS-
+
+-N_Days:El día en que se registró las características y estado de cada paciente. 
+
+-Drug:El tipo de medicamento o tratamiento que está recibiendo el paciente.
+
+-Age:La edad del paciente.
+
+-Sex:El género del paciente (por ejemplo, "Male" o "Female").
+
+-Ascites:Indica la presencia o ausencia de ascitis, que es la acumulación anormal de líquido en la cavidad abdominal.
+
+-Hepatomegaly:Indica la presencia o ausencia de hepatomegalia, que es un agrandamiento del hígado.
+
+-Spiders:Puede referirse a la presencia de "spider angiomas," que son lesiones cutáneas características de enfermedades hepáticas.
+
+-Edema:Indica la presencia o ausencia de edema, que es la acumulación anormal de líquido en los tejidos.
+
+-Bilirubin:Niveles de bilirrubina en la sangre, que pueden indicar problemas en el hígado.
+
+-Cholesterol:Niveles de colesterol en la sangre.
+
+-Albumin:Niveles de albúmina en la sangre, una proteína producida por el hígado.
+
+-Copper:Niveles de cobre en el organismo.
+
+-Alk_Phos:Niveles de fosfatasa alcalina en la sangre, una enzima relacionada con la salud del hígado y los huesos.
+
+-SGOT:Niveles de aspartato aminotransferasa (AST), una enzima que puede indicar daño hepático.
+
+-Triglycerides:Niveles de triglicéridos en la sangre.
+
+-Platelets:Recuento de plaquetas en la sangre.
+
+-Prothrombin:Tiempo de protrombina, una medida de la coagulación sanguínea.
+
+-Stage:Se referiere a la gravedad de la cirrosis según algún sistema de clasificación.
+
+-Status:Categoriza el estado del paciente en función del evento registrado en "N_Days".
+    "C" (censored): Indica que el paciente estaba vivo en el momento registrado en "N_Days". La información es censurada, lo que significa       que el paciente sigue vivo, pero la duración exacta más allá de "N_Days" no está disponible o no se registra.
+    "CL" (censored liver transplant): Indica que el paciente estaba vivo en el momento registrado en "N_Days" debido a un trasplante de         hígado.
+    "D" (deceased): Indica que el paciente falleció en el momento registrado en "N_Days".
+
