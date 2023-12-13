@@ -1,0 +1,45 @@
+1.Descriptivos estadisticos:
+- N_Days*: media de 2030, con dst 1094(datos con cierta dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 1230-2689.
+- Age: media de 18373, con dst 3679(datos con poca dispersion). 
+no presenta valores extremos altos(min, max), cuartiles desde 15574-20684.
+- Bilirubin*: media de 2.59, con dst 3.81(datos con bastante dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 0.7-3.0.
+- Cholesterol*: media de 350, con dst 195(datos con bastante dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 248-390.
+- Albumin: media de 3.54, con dst 195(datos con poca dispersion). 
+no presenta valores extremos altos(min, max), cuartiles desde 3.3-3.7.
+- Copper*: media de 83.9, con dst 75.8(datos con cierta dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 39-102.
+- Alk_Phos*: media de 1816, con dst 1903(datos con bastante dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 289-1857.
+- SGOT*: media de 1816, con dst 1903(datos con bastante dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 289-1857.
+- Tryglicerides*: media de 115, con dst 52(datos con cierta dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 84-139.
+- Platelets: media de 265, con dst 87(datos con poca dispersion). 
+Presenta valores extremos altos(min, max), cuartiles desde 211-316.
+- Prothrombin*: media de 10.6, con dst 0.7(datos con poca dispersion). 
+no presenta valores extremos altos(min, max), cuartiles desde 10-11.
+- Stage: media de 3.0, con dst 0.8(datos con poca dispersion). 
+no presenta valores extremos altos(min, max), cuartiles desde 2-4.
+
+nota: El *, hace referencia a que la caracteristica indicada presenta irregularidades
+en su distribucion y datos.
+
+2. Datos atipicos en variable numerica:
+- Las siguientes caracteristicas presentan atipicos, en mayor o menor medida.
+Bilirubin(>20), Cholesterol(>1250), Copper(>350), Alk_Phos(>8000), SGOT(>350),
+Tryglicerides(>350), Prothrombin(>15).
+
+nota: el signo >, hace referencia al valor(eje x) de la distribucion en la cual encontramos los 
+atipicos en adelante.
+
+3. Correlaciones entre variables numericas:
+- Entre todas las variables numericas no hay indicios de problemas de multocolinealidad,
+ni presentan relaciones positivas o negativas.
+
+4. Distribucion variables categoricas:
+- Las clases correspondientes a cada caracteristica categorica, presentan una 
+distribucion 50/50, osea que encontramos datos con la misma cantidad de informacion.
+
