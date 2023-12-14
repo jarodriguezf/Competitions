@@ -43,3 +43,15 @@ ni presentan relaciones positivas o negativas.
 - Las clases correspondientes a cada caracteristica categorica, presentan una 
 distribucion 50/50, osea que encontramos datos con la misma cantidad de informacion.
 
+5. Insights(Observaciones significativas):
+- En el conjunto de datos, encontramos que la mayoria de observaciones corresponden a 
+pacientes de sexo femenino, siendo el  92.8% del total. Podemos afirmar que hay una clara
+disparidad en los datos, tal vez por algun sesgo a la hora de recopilar la informacion (competicion).
+
+- En relacion a la proporcion de pacientes de sexo femenino y masculino, hemos detectado que
+los pacientes masculinos tienden a fallecer más que los femeninos (aun así, al no tener 
+un equilibrio entre estas dos clases, no podemos afirmar con certeza este hecho).
+
+- Otro factor a tener en cuenta es el estadio (escala del 1 al 4, indicando la gravedad de cirrosis).
+Observamos que hay mas muertes si los pacientes llegan a una escala de 3 sobre 4. Necesitando 
+además, transplante de higado en caso de que sobrevivan.
