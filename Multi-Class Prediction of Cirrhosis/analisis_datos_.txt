@@ -37,7 +37,7 @@ atipicos en adelante.
 
 3. Correlaciones entre variables numericas:
 - Entre todas las variables numericas no hay indicios de problemas de multocolinealidad,
-ni presentan relaciones positivas o negativas.
+ni presentan correlaciones positivas o negativas, son independientes entre si.
 
 4. Distribucion variables categoricas:
 - Las clases correspondientes a cada caracteristica categorica, presentan una 
@@ -55,3 +55,27 @@ un equilibrio entre estas dos clases, no podemos afirmar con certeza este hecho)
 - Otro factor a tener en cuenta es el estadio (escala del 1 al 4, indicando la gravedad de cirrosis).
 Observamos que hay mas muertes si los pacientes llegan a una escala de 3 sobre 4. Necesitando 
 además, transplante de higado en caso de que sobrevivan.
+
+- A mayor edad del paciente, mas posibilidad hay de fallecimiento.
+
+- Entre los pacientes que presentan hepatomegalia, las probabilidades de fallecer y/o 
+necesitar un transplante son mas altas que las que carecen de este problema.
+
+- Entre los pacientes que presentan spiders(lesiones cutaneas por daño hepatico), el 
+fallecimiento es mas significativo que los que no presentan dicha enfermedad.
+
+- Cuanto mayor sea el nivel de bilirubina en sangre(>3), mas probabilidad hay de fallecimiento, asi
+como transplante debido a daños hepaticos.
+
+- Un factor curioso son los niveles de cobre en sangre, cuanto mas altos sean(>100), mas riesgo hay
+de fallecimiento asi como necesidad de transplante, en relacion a la cirrosis.
+
+- Si el paciente presenta un nivel elevado de fosfatasa alcalina(>1500), el riesgo de fallecimiento
+se eleva. La necesidad de transplante no difiere demasiado con el de nulas consecuencias 
+(osea, ni fallecer ni transplante, sobrevive por cuenta propia).
+
+- La enzima aspartato aminotransferasa segun sus niveles(>100), presenta unas consecuencias parecidas
+al fosfatasa alcalina. Cuanto mas eleveda sea, mas riesgo de fallecer y necesitar transplante.
+
+- Si el paciente presenta un menor recuento de plaquetas en sangre(<250), puede presentar riesgos
+tanto mortal como necesidad de transplante.
